@@ -2742,8 +2742,8 @@ entries:
 - name: OrcaReplay
   repo_url: https://github.com/Continuum-AI-Corp/OrcaReplay
   category: Observability & Reliability Operations
-  summary_en: Records a coding-agent run below the harness and replays it offline byte-for-byte,
-    or forks it from a checkpoint onto another model.
+  summary_en: Records a coding-agent run below the harness and replays it offline with the network
+    off, or forks it from a checkpoint onto another model.
   summary_zh: 在 harness 之下记录编码 agent 的运行，可离线逐字节重放，或从任一检查点分叉到另一个模型。
   tags:
   - record-replay
